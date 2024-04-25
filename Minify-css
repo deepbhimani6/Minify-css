@@ -1,0 +1,8 @@
+npm i --save-dev minifier
+ 
+write in webpack {
+    let minifier = require('minifier');
+    mix.then(() => {
+        minifier.minify('src/css/main.css'); => dummy path
+    });
+}
